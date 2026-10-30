@@ -38,3 +38,6 @@ BEGIN
 END //
 
 DELIMITER ;
+
+--Ejemplo de llamada para probar Stored Procedure
+CALL SP REGISTRAR_PRESTAMO(11111111, 1, 55555555, CURRENT_DATE);
